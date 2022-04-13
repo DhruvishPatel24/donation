@@ -9,7 +9,15 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  ngo = false;
+
   ngOnInit(): void {
   }
 
+  donorsFAQClicked(){
+    this.ngo = false;
+  }
+  ngoFAQClicked(){
+    this.ngo = true;
+  }
 }

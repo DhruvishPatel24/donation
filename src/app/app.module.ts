@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgoComponent } from './faqs/ngo/ngo.component';
 import { NavbarComponent } from './faqs/navbar/navbar.component';
 import { HomeComponent } from './faqs/home/home/home.component';
 import { CarouselComponent } from './carousel/carousel/carousel.component';
@@ -17,7 +16,6 @@ import { AboutusComponent } from './aboutus/aboutus/aboutus.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NgoComponent,
     NavbarComponent,
     HomeComponent,
     CarouselComponent,
