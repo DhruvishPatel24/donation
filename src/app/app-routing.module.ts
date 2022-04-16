@@ -3,8 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './faqs/home/home/home.component';
 import { NavbarComponent } from './faqs/navbar/navbar.component';
 import { Home1Component } from './howitworks/home1/home1.component';
-import { WorksComponent } from './howitworks/works/works.component';
-import { Works1Component } from './howitworks/works1/works1/works1.component';
 import { TestimonialComponent } from './testimonial/testimonial/testimonial.component';
 import { CarouselComponent } from './carousel/carousel/carousel.component';
 
@@ -14,8 +12,6 @@ const routes: Routes = [
   {path:'navbar',component:NavbarComponent},
   {path:'testimonial',component:TestimonialComponent},
   {path: 'home1',component:Home1Component},
-  {path:'works',component:WorksComponent},
-  {path:'works1',component:Works1Component},
   {path:'carousel',component:CarouselComponent}
   
   

@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Home1Component implements OnInit {
 
+
+  ngo = false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  donorsWorksClicked(){
+    this.ngo = false;
+  }
+
+  ngoWorksClicked(){
+    this.ngo = true;
+  }
 }
